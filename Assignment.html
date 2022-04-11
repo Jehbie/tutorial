@@ -1,112 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Assignment Tutorial</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Assignment Tutorial</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="ass.css">
 </head>
-
 <body>
-    
-<nav class="navbar navbar-expand-xl bg-danger navbar-dark ">
-    <a class="navbar-brand" href="https://www.manutd.com/" >
-      <img src="images/logoUnited" alt="logo" class="rounded-circle" style="width:50px;"></a>
+    <nav class="navbar navbar-expand-sm bg-danger navbar-danger">
+        <a class="navbar-brand " href="https://www.manutd.com/">
+            <img src="images/logoUnited" alt="logo" class="rounded-circle" style="width:50px;"></a>
+        </a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item px-3">
+                <a href="https://www.manutd.com/ "> <strong style="color: white">Home</strong></a>
+            </li>
+            <li class="nav-item px-3">
+                <a href="https://www.manutd.com/en/news"><strong style="color: white">Explore</strong></a>
+            </li>
+            <li class="nav-item px-3">
+                <a href="https://www.manutd.com/en/players-and-staff"><strong style="color: white" >Products</strong></a>
+            </li>
+            <li class="nav-item px-3">
+                <a href="https://www.manutd.com/en/visit-old-trafford"><strong style="color: white">About</strong></a>
+            </li>
+            <li class="nav-item px-3">
+                <a
+                    href="https://www.manutd.com/en/help/club-contacts?int_source=manutd.com&int_medium=menu&int_campaign=generic&int_content=more_help_contactus"><strong style="color: white">ContactUs</strong></a>
+            </li>
+        </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" span class="fa fa-search form-control-feedback" placeholder="Search" aria-label="Search"></i>
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="bi bi-search"></i></button>
+                  </form>
+              
+    </nav>
+    <br>
+    <div class="container-fluid">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/Ronaldo.jpg" alt="ronaldo" width="100%" height="1000">
+                    <div class="carousel-caption">
+                        <h3>Cristiano Ronaldo</h3>
+                        <p>Cr7 is currently the premier leauge top goal scorer</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Rash.jpg" alt="fast Rash" width="100%" height="1000">
+                    <div class="carousel-caption">
+                        <h3>Marcus Rasford MBE</h3>
+                        <p>currently on a poor run of form, Marcus had netted just one goal in last 7 appearances in all
+                            competiton</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Sanchoo.jpg" alt="Jadon" width="100%" height="1000">
+                    <div class="carousel-caption">
+                        <h3>Jadon Sancho</h3>
+                        <p>Tagged one of the most expensive signing of the window but he is yet to hit top form</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/ScottMctominay.webp" alt="scotty" width="100%" height="1000">
+                    <div class="carousel-caption">
+                        <h3>Scott Mactominay</h3>
+                        <p>Aproper aggressive all round midfielder, he never misses a tackle</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/tteam.jpg" alt="Useless team" width="100%" height="1000">
+                    <div class="carousel-caption">
+                        <h3>Usless Team</h3>
+                        <p>They have just been palying rubbish all season</p>
+                    </div>
+                </div>
+            </div>
 
-      <ul class="navbar-nav">
-        <li class="nav-item">
-         <a href="https://www.manutd.com/">Home</a>
-        </li>
-        <li class="nav-item">
-            <a href="https://www.manutd.com/en/news">Explore</a>
-        </li>
-        <li class="nav-item">
-            <a href="https://www.manutd.com/en/players-and-staff">Product</a>
-        </li>
-        <li class="nav-item">
-            <a href="https://www.manutd.com/en/visit-old-trafford" >About</a>
-        </li>
-        <li class="nav-item">
-            <a href="https://www.manutd.com/en/help/club-contacts?int_source=manutd.com&int_medium=menu&int_campaign=generic&int_content=more_help_contactus">Contact Us</a>
-        </li>
-      </ul>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+            <div class="card">
+                         <img class="card-img-top" src="images/fred.jpg" alt="fred" style="width:100%">
+                 <div class="card-body">
+                     <h3 class="card-title"> Opta Details Fred Recent Influence</h3>
+                     <p class="card-text"> Find out which team category the brazilan is doing well in wich recent run of form</p>
+                     <a href="https://www.manutd.com/en/news/detail/opta-stat-on-fred-premier-league-goal-involvements-before-everton-game-april-2022" class="btn btn-danger stretched-link">read more...</a>
+</div>
+</div>
+               </div>
+                <div class="col-6">
+                    <div class="card">                    
+                         <div class="card-body">
+                             <h3 class="card-title"> Is Cristiano Ronaldo right?</h3>
+                             <p class="card-text">The Reds' no. 7 reckoned his Spurs strike wasn't in his Premier League top 10. Do you agree? </p>
+                             <a href="https://www.manutd.com/en/news/detail/opta-stat-on-fred-premier-league-goal-involvements-before-everton-game-april-2022" class="btn btn-danger stretched-link">read more...</a>
+        </div>
+        <img class="card-img-bottom" src="images/traning.jpg" alt="roro " style="width:100%">
+        </div>
+        </div>
+        </div>
+        </div>
 
-
-        <form class="form-inline" action="/action_page.php">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-success" type="submit">Search</button>
-          </form>
-  </nav>
-  <br>
-  <div class="container-fluid">
-  <div id="demo" class="carousel slide" data-ride="carousel">
-    <ul class="carousel-indicators">
-      <li data-target="#demo" data-slide-to="0" class="active"></li>
-      <li data-target="#demo" data-slide-to="1"></li>
-      <li data-target="#demo" data-slide-to="2"></li>
-      <li data-target="#demo" data-slide-to="3"></li>
-      <li data-target="#demo" data-slide-to="4"></li>
-    </ul>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/Ronaldo.jpg" alt="ronaldo" width="100%" height="1000">
-        <div class="carousel-caption">
-          <h3>Cristiano Ronaldo</h3>
-          <p>Cr7 is currently the premier leauge top goal scorer</p>
-        </div>   
-      </div>
-      <div class="carousel-item">
-        <img src="images/Rash.jpg" alt="fast Rash" width="100%" height="1000">
-        <div class="carousel-caption">
-          <h3>Marcus Rasford MBE</h3>
-          <p>currently on a poor run of form, Marcus had netted just one goal in last 7 appearances in all competiton</p>
-        </div>   
-      </div>
-      <div class="carousel-item">
-        <img src="images/Sanchoo.jpg" alt="Jadon" width="100%" height="1000">
-        <div class="carousel-caption">
-          <h3>Jadon Sancho</h3>
-          <p>Tagged one of the most expensive signing of the window but he is yet to hit top form</p>
-        </div>   
-      </div>
-      <div class="carousel-item">
-        <img src="images/ScottMctominay.webp" alt="scotty" width="100%" height="1000">
-        <div class="carousel-caption">
-          <h3>Scott Mactominay</h3>
-          <p>Aproper aggressive all round midfielder, he never misses a tackle</p>
-        </div>   
-      </div>
-      <div class="carousel-item">
-        <img src="images/TeamUnited.jpg" alt="Useless team" width="100%" height="1000">
-        <div class="carousel-caption">
-          <h3>Usless Team</h3>
-          <p>They have just been palying rubbish all season</p>
-        </div>   
-      </div>
+        <div class="container-fluid mt-4">
+<div class="row">
+    <div class="col-5">
+<div class="card">
+    <div class="card img-fluid" style="width:500px">
+        <img class="card-img-top" src="images/tteam.jpg" alt="team" style="width:200%">
+        <div class="card-img-overlay">
+            <div class="card-body">
+                <h2 class="card-title text-white">EARLY TEAM NEWS FOR EVERTON TRIP</h2>
+                <p class="card-text text-white"> Ralf Rangnick has given an update on his Manchester United squad, ahead of Saturday's lunchtime kick-off with Everton at Goodison Park.</p>
+                <a href="https://www.manutd.com/en/news/detail/man-utd-team-news-for-trip-to-everton-on-9-april-2022" class="btn btn-light stretched-link">read more...</a>
+</div>
+ </div>
+</div>
+</div>
+</div>
+<div class="col-3">
+    <div class="card">
+        <img class="card-img-top" src="images/dalot.jpg" alt="dalot" style="width:100%">
+<div class="card-body">
+    <h3 class="card-title"> Dalot: We need to be aggressive</h3>
+    <p class="card-text"> Manchester United right-back Diogo Dalot is urging the Reds to maintain concentration between now and the end of the season, regardless of opposition.</p>
+    <a href="https://www.manutd.com/en/news/detail/dalot-interview-before-everton-v-man-utd-at-goodison-park-9-april" class="btn btn-light stretched-link">read more...</a>
     </div>
-    
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
-  </div>
-  <br>
-  <br>
-  <br>
+    </div>
+    </div>
+    <div class="col-4">
+        <div class="card">
+            <img class="card-img-top" src="images/Group_shot.png" alt="group" style="width:100%">
+    <div class="card-body">
+        <h3 class="card-title"> RONALDO AND THE REDS SURPRISE 'AMAZING' CHILDREN</h3>
+        <p class="card-text"> Cristiano Ronaldo has reflected on a very special day for the Manchester United squad, after our players surprised a group of primary school children at Carrington.</p>
+        <a href="https://www.manutd.com/en/news/detail/cristiano-ronaldo-reflects-on-man-utd-squad-surprising-foundation-children" class="btn btn-light stretched-link">read more...</a>
+        </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="container mt-4">
 
-  <footer>
-    <div class="navbar navbar-inverse navbar-fixed-bottom bg-danger">
-        <div class="container-fluid">
-            <a href="https://web.facebook.com/manchesterunited?_rdc=1&_rdr"><strong>Follow Us on Facebook <i class="bi bi-facebook"></i></strong></a> |
-            <a href="https://twitter.com/ManUtd"><strong>Follow Us on Twitter <i class="bi bi-twitter"></i></strong></a>    |
-            <a href="https://www.instagram.com/manchesterunited/"><strong>Follow Us on Instagram <i class="bi bi-instagram"></i></strong></a> |
-        </div>
-        </div>
-  </footer>
+        <a href="https://www.regi.com/products-and-services/products/endura-fuels"> <img class="card-img-top" src="images/edure.jfif" alt="dalot" style="width:100%"></a>
+
+</div>
+
+    </div>
+        <footer>
+            <div class="navbar navbar-inverse navbar-fixed-bottom bg-danger">
+                <div class="container-fluid">
+                    <a href="https://web.facebook.com/manchesterunited?_rdc=1&_rdr"><strong>Follow Us on Facebook <i
+                                class="bi bi-facebook"></i></strong></a> |
+                    <a href="https://twitter.com/ManUtd"><strong>Follow Us on Twitter <i
+                                class="bi bi-twitter"></i></strong></a> |
+                    <a href="https://www.instagram.com/manchesterunited/"><strong>Follow Us on Instagram <i
+                                class="bi bi-instagram"></i></strong></a> |
+                </div>
+        </footer>
+
+</body>
+
+</html>

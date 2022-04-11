@@ -1,0 +1,9 @@
+.search-bar{
+    position:relative;
+}
+
+.search-bar .search-icon{
+    position:absolute;
+    right: 5px; 
+    top: 2px; 
+}
